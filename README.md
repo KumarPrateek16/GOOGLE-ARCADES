@@ -1,34 +1,39 @@
-# 🌩️ Google Cloud Arcade - Learning Journey
+# 🗺️ Arcade Adventure: Modern App Deployment
 
-Welcome to my Google Cloud Arcade repository! This repository serves as a portfolio of my hands-on experience, projects, and practical learnings from participating in the [Google Cloud Arcade](https://go.qwiklabs.com/arcade).
-
-## 🎯 About This Repository
-
-The Google Cloud Arcade provides hands-on labs, trivia, and challenges to build real-world cloud skills. I created this repository to document the cloud architectures I built, the challenges I solved, and the core technologies I mastered during the monthly drops.
-
-To keep things perfectly organized and modular, **each Arcade track has its own dedicated branch**. 
-
-## 🗂️ Repository Structure
-
-Navigate to the specific branches to see detailed notes, architecture diagrams, shell scripts, and code snippets for each game. 
-
-> 👉 **How to view my work:** Select a branch from the branch dropdown at the top-left of this GitHub repository to explore my specific tasks, learnings, and code for that track.
-
-## 🛠️ Technologies & Services Mastered
-
-Through completing these arcades, I have gained extensive hands-on experience with a wide variety of Google Cloud Platform (GCP) services:
-
-* **Compute & Containers:** Compute Engine, Google Kubernetes Engine (GKE)
-* **Serverless:** Cloud Run, App Engine, Cloud Functions
-* **Data & Analytics:** BigQuery, Dataplex
-* **Networking:** Virtual Private Cloud (VPC), Cloud Load Balancing, Cloud NAT
-* **App Development:** Firebase (Realtime Database, Authentication, Hosting)
-* **Security & Identity:** Identity and Access Management (IAM), Resource Manager
-
-## 🏆 Badges & Achievements
-
-[![Google Developer](https://img.shields.io/badge/Google_Developer-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://www.skills.google/public_profiles/18862dd8-e33a-442b-b7d4-bc59523c60ce)
-[![Credly](https://img.shields.io/badge/Credly-F15A24?style=for-the-badge&logo=credly&logoColor=white)](https://www.credly.com/users/kumarprateek)
+Welcome to my documentation for the **May Arcade Adventure** track! This branch focuses on the evolution of application hosting on Google Cloud, moving from traditional virtual machines to fully managed serverless architectures and containerized orchestration.
 
 ---
-*Built with ❤️ and continuous learning on Google Cloud...* ☁️🚀
+
+## 🛠️ Infrastructure & Services Used
+
+During this track, I gained hands-on experience deploying, configuring, and managing applications across four core compute paradigms on Google Cloud Platform:
+
+*   **Compute Engine (IaaS):** Configured Virtual Machines (VMs) to understand traditional infrastructure management, OS patching, and manual scaling.
+*   **Google Kubernetes Engine (GKE) (Hybrid/CaaS):** Deployed containerized applications using Kubernetes clusters, managing pods, services, and container orchestration.
+*   **Cloud Run (Serverless Containers):** Leveraged a fully managed environment to deploy container images instantly, scaling automatically from zero to meet demand.
+*   **App Engine (PaaS):** Utilized a zero-ops platform to deploy application code directly, allowing Google to handle provisioning, load balancing, and scaling automatically.
+
+---
+
+## 🧠 Key Learnings & Architecture Concepts
+
+Completing this track provided deep structural insights into modern cloud-native deployment patterns:
+
+### 1. The Monolith-to-Microservices Shift
+I learned how to break down application components into microservices, containerize them using Docker, and host them efficiently based on their specific workload requirements.
+
+### 2. Infrastructure Control vs. Operational Overhead
+I gained a clear understanding of when to choose specific compute options:
+*   **Compute Engine** for absolute control over the OS and network.
+*   **GKE** for complex, multi-container microservice orchestration.
+*   **Cloud Run & App Engine** when speed-to-market and zero operational maintenance are the primary goals.
+
+### 3. Serverless Scaling & Cost Optimization
+I mastered the mechanics of **Scale-to-Zero**, observing how modern serverless tools like Cloud Run reduce cloud spend by only running compute resources when live HTTP requests are actively hitting the application.
+
+---
+
+### 🌐 Useful Resources
+
+[![Compute Options Guide](https://img.shields.io/badge/Compute_Options_Guide-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)](https://docs.cloud.google.com/compute/docs/)
+[![Google Cloud Arcade](https://img.shields.io/badge/Google_Cloud_Arcade-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)](https://go.cloudskillsboost.google/arcade)
