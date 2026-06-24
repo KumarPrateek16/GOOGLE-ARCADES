@@ -10,9 +10,9 @@ To keep things perfectly organized and modular, **each Arcade track has its own 
 
 ## 🗂️ Repository Structure
 
-Navigate to the specific branches to see detailed notes, architecture diagrams, shell scripts, and code snippets for each game. 
+Navigate to the specific branches to see detailed notes, architecture diagrams for each game. 
 
-> 👉 **How to view my work:** Select a branch from the branch dropdown at the top-left of this GitHub repository to explore my specific tasks, learnings, and code for that track.
+> 👉 **How to view my work:** Select a branch from the branch dropdown at the top-left of this GitHub repository to explore my specific arcades, learnings for that track.
 
 ## 🛠️ Technologies & Services Mastered
 
